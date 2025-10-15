@@ -8,4 +8,4 @@ class Fisica(Pessoa):
         self.cpf = cpf
         
     def __str__(self):
-         return super().__str__() + "\nCPF: " + self.cpf
+        return super().__str__() + "\nCPF: " + self.cpf
